@@ -21,9 +21,9 @@ jobs:
           # submodules: true
 
       - name: 安装 pnpm
-        uses: pnpm/action-setup@v2.2.4
+        uses: pnpm/action-setup@v2
         with:
-          version: 6.0.2
+          version: 6.0.0
           run_install: true
 
       - name: 设置 Node.js
